@@ -108,7 +108,7 @@ html[data-theme="light"] .header {
 }
 
 .site-logo {
-  height: 36px;        /* ✅ Perfect default size for desktops */
+  height: 42px;        /* ✅ Perfect default size for desktops */
   width: auto;
   max-width: 160px;   /* ✅ Prevents extra-wide logos */
   object-fit: contain;
