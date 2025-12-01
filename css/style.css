@@ -104,16 +104,17 @@ html[data-theme="light"] .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
 }
 
 .site-logo {
-  height: clamp(38px, 6vw, 64px);   /* ⬆ Bigger height on all screens */
+  height: clamp(42px, 6.5vw, 70px);   /* ✅ Slightly taller */
   width: auto;
-  max-width: 280px;                 /* ⬆ Allows a much wider logo */
+  max-width: 350px;                  /* ✅ Slightly wider */
   object-fit: contain;
   display: block;
 }
+
 
 
 .logo {
