@@ -108,7 +108,7 @@ html[data-theme="light"] .header {
 }
 
 .site-logo {
-  height: clamp(45px, 7vw, 275px);   /* ⬆ increases vertical size */
+  height: clamp(68px, 10.5w, 200px);   /* ⬆ increases vertical size */
   width: auto;
   max-width: 550px;                /* ⬆ increases horizontal size */
   object-fit: contain;
