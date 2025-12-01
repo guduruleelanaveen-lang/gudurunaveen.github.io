@@ -108,9 +108,9 @@ html[data-theme="light"] .header {
 }
 
 .site-logo {
-  height: clamp(45px, 7vw, 75px);   /* ⬆ increases vertical size */
+  height: clamp(45px, 7vw, 275px);   /* ⬆ increases vertical size */
   width: auto;
-  max-width: 350px;                /* ⬆ increases horizontal size */
+  max-width: 550px;                /* ⬆ increases horizontal size */
   object-fit: contain;
   display: block;
 }
