@@ -104,13 +104,13 @@ html[data-theme="light"] .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.65rem 0;
+  padding: 0.85rem 0;
 }
 
 .site-logo {
-  height: clamp(26px, 4vw, 40px);  /* auto scales between mobile & desktop */
+  height: clamp(32px, 5vw, 52px);   /* ✅ Bigger on desktop & still responsive */
   width: auto;
-  max-width: 180px;                /* stops wide logos becoming too big */
+  max-width: 220px;                 /* ✅ Allows wider logos to breathe */
   object-fit: contain;
   display: block;
 }
